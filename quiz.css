@@ -1,0 +1,131 @@
+body {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #D0C2B0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #B0BEC5;
+    border-radius: 10px;
+    background-color: #EBE6E0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#login h2 {
+    color: #607D8B;
+}
+
+#login label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#login input {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #607D8B;
+    border-radius: 5px;
+}
+
+#login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #607D8B;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#login button:hover {
+    background-color: #78909C;
+}
+
+#loginMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+#quiz-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.question {
+    font-weight: 600;
+    color: #d9856d;
+}
+
+.answers {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#next, #submit {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    background-color: #607D8B;
+    color: #FFF;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#next:hover, #submit:hover {
+    background-color: #78909C;
+}
+
+.correct {
+    color: lightgreen;
+}
+
+.incorrect {
+    color: red;
+}
+
+#results {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #607D8B;
+}
+
+.progress-bar {
+    margin-top: 20px;
+    height: 20px;
+    background-color: #EEE;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar div {
+    height: 100%;
+    width: 0;
+    background-color: #607D8B;
+    border-radius: 5px;
+}

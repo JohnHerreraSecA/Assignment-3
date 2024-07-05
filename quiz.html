@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wunderlust Footprints Quiz</title>
+    <script src="quiz.js"></script>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login">
+            <h2>Login to access the quiz</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+            <button id="loginButton">Login</button>
+            <div id="loginMessage"></div>
+        </div>
+        <div id="quiz-container" style="display:none;">
+            <div id="quiz"></div>
+            <button id="next">Next</button>
+            <button id="submit" style="display:none;">Get Results</button>
+            <div id="results"></div>
+        </div>
+    </div>
+</body>
+</html>
