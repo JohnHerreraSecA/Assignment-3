@@ -13,6 +13,8 @@ Login Form:
 Inputs for username and password.
 A login button that triggers authentication.
 A message area for displaying login errors.
+Username: user
+Password: password
 Quiz Container:
 Initially hidden and displayed after a successful login.
 Contains the quiz questions and answer choices.
